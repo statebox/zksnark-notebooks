@@ -11,10 +11,13 @@ The next steps for this notebook are to include the elliptic curve cryptography 
 ## Linux
 ### From a package manager
 - for Debian, Ubuntu
-$ sudo apt-get install sagemath sagemath-jupyter sagemath-doc-en
-
+```
+sudo apt-get install sagemath sagemath-jupyter sagemath-doc-en
+```
 - for Arch Linux
-$ sudo pacman -S sagemath sagemath-jupyter sagemath-doc
+```
+sudo pacman -S sagemath sagemath-jupyter sagemath-doc
+```
 
 ### From tar.gz
 
@@ -24,14 +27,18 @@ Unpack tar.gz in the dierctory where you want to run sage.
 
 To use Sage directly from the command-line using the `sage` command, use a symbolic link:
 
-$ ln -s /your/path/to/sage /usr/local/bin/sage
+```
+ln -s /your/path/to/sage /usr/local/bin/sage
+```
 
 ## macOS
 Download .dmg at http://www.sagemath.org/download-mac.html and install as usual.
 
 To use Sage directly from the command-line using the `sage` command, use a symbolic link:
 
-$ ln -s /your/path/to/sage /usr/local/bin/sage
+```
+ln -s /your/path/to/sage /usr/local/bin/sage
+```
 
 ## Windows (Cygwin)
 Download and run installer from http://www.sagemath.org/download-windows.html 
@@ -39,12 +46,11 @@ Download and run installer from http://www.sagemath.org/download-windows.html
 Select Sage from the start menu to launch a Sage terminal emulator.
 
 ## Running this file in sage
-
-$ git clone https://github.com/statebox/zksnark-notebooks
-
-$ cd zksnark-notebooks
-
-$ sage -n jupyter
+```
+git clone https://github.com/statebox/zksnark-notebooks
+cd zksnark-notebooks
+sage -n jupyter
+```
 
 The Jupyter notebook will launch in the browser. From here you can open the .ipynb file.
 
